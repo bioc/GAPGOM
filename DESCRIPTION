@@ -1,7 +1,7 @@
 Package: GAPGOM
 Type: Package
 Title: GAPGOM (novel Gene Annotation Prediction and other GO Metrics)
-Version: 1.15.0
+Version: 1.15.1
 Authors@R: c(
     person("Rezvan", "Ehsani", email = "rezvanehsani74@gmail.com", role = c("aut", "cre")),
 	person("Casper", "van Mourik", email = "cp100u@hotmail.com", role = "aut"),
@@ -65,3 +65,4 @@ BugReports: https://github.com/Berghopper/GAPGOM/issues/
 URL: https://github.com/Berghopper/GAPGOM/
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
+PackageStatus: Deprecated

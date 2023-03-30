@@ -17,4 +17,9 @@
                    )
 
     packageStartupMessage(paste0(msg, citation))
+    
+    msg <- sprintf(
+        "Package '%s' is deprecated and will be removed from Bioconductor
+         version %s", pkgname, "3.18")
+    .Deprecated(msg=paste(strwrap(msg, exdent=2), collapse="\n"))
 }
